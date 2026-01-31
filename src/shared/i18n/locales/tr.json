@@ -1,0 +1,43 @@
+{
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar Dene",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "ok": "Tamam",
+    "getStarted": "Başlayın"
+  },
+  "auth": {
+    "login": "Giriş Yap",
+    "signup": "Kayıt Ol",
+    "logout": "Çıkış Yap",
+    "email": "E-posta",
+    "password": "Şifre",
+    "confirmPassword": "Şifre Tekrar",
+    "forgotPassword": "Şifremi Unuttum?",
+    "dontHaveAccount": "Hesabınız yok mu?",
+    "alreadyHaveAccount": "Zaten hesabınız var mı?",
+    "welcomeBack": "Tekrar Hoş Geldiniz",
+    "createAccount": "Hesap Oluştur"
+  },
+  "animals": {
+    "title": "Hayvanlar",
+    "detail": "Hayvan Detayları",
+    "noAnimals": "Henüz hayvan yok",
+    "name": "İsim",
+    "species": "Tür",
+    "breed": "Cins",
+    "age": "Yaş"
+  },
+  "profile": {
+    "title": "Profil",
+    "editProfile": "Profili Düzenle",
+    "settings": "Ayarlar",
+    "darkMode": "Karanlık Mod",
+    "language": "Dil",
+    "version": "Sürüm"
+  }
+}

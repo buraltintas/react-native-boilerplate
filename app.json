@@ -1,0 +1,92 @@
+{
+  "expo": {
+    "name": "React Native Boilerplate",
+    "slug": "react-native-boilerplate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#007AFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.boilerplate",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to your camera.",
+        "NSMicrophoneUsageDescription": "This app needs access to your microphone."
+      },
+      "associatedDomains": [
+        "applinks:myapp.com"
+      ]
+    },
+    "android": {
+      "package": "com.yourcompany.boilerplate",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "myapp.com"
+            },
+            {
+              "scheme": "myapp"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {},
+    "scheme": "myapp",
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ],
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access camera for scanning."
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511"
+        }
+      ]
+    ],
+    "extra": {
+      "apiBaseUrl": "https://api.example.com",
+      "apiTimeout": 30000,
+      "enableAnalytics": false,
+      "enableCrashReporting": false,
+      "enableVersionCheck": false,
+      "socketUrl": "wss://api.example.com",
+      "socketPath": "/socket.io",
+      "eas": {
+        "projectId": "your-project-id-here"
+      }
+    }
+  }
+}

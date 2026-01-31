@@ -1,0 +1,43 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "ok": "OK",
+    "getStarted": "Get Started"
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "welcomeBack": "Welcome Back",
+    "createAccount": "Create Account"
+  },
+  "animals": {
+    "title": "Animals",
+    "detail": "Animal Details",
+    "noAnimals": "No animals yet",
+    "name": "Name",
+    "species": "Species",
+    "breed": "Breed",
+    "age": "Age"
+  },
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Edit Profile",
+    "settings": "Settings",
+    "darkMode": "Dark Mode",
+    "language": "Language",
+    "version": "Version"
+  }
+}
